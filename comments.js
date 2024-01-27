@@ -34,4 +34,4 @@ const methodOverride = require('method-override');
 const { ensureAuthenticated } = require('./config/auth');
 
 //Set up default mongoose connection
-const mongoDB = 'mongodb://
+const mongoDB = 'mongodb://localhost:27017/blog';
